@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+    <form>
+        <h1>REGISTER YOURSELF</h1>
+        <p> NAME:* <input type="text" name ="name" required placeholder="name"></p>
+        <p>
+        <h2>GENDER *</h2>
+        MALE: <input type="radio" name="gender" id="male" required> FEMALE: <input type="radio" name="gender" id="female"> 
+
+        </p>
+        <p>
+            PASSWORD: * <input type="password" name="password" id="password">
+        </p>
+        <p>
+            ADDRESS:* <textarea name ="address" id="address" cols="30" rows="40" required></textarea>
+        </p>
+        <p>
+            EMAIL:* <input type="email"  name = "email"id ="email" required>
+        </p>
+        <p>
+            PINCODE:* <input type="number" name="pincode" id="number">
+        </p>
+        <h2>PAYMENT INFORMATION</h2>
+        <p> CARD TYPE:
+            <select name="card_type" id="card_type">
+                <option value="">--SELECT A CARD TYPE--</option>
+                <option value="visa">VISA</option>
+                <option value="mastercard">MASTER CARD</option>
+                <option value ="rupay">RUPAY</option>
+            </select>
+
+        </p>
+        <p>
+            CARD NUMBER:* <input type="number" name="card_number" id="card_number" required>
+
+        </p>
+        <p>
+            CVV:* <input type="password" name="cvv" id="cvv">
+        </p>
+        <p>
+            EXPIRATION DATE:* <input type="date" name="exp_date" id="exp_date">
+        </p>
+        <input type ="submit" value="pay now">
+    </form>
+    
+</body>
+</html>
